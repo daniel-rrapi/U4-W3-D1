@@ -1,0 +1,5 @@
+ES.1) SELECT * FROM clienti
+WHERE nome = 'Mario'
+
+ES.2) SELECT nome, cognome FROM clienti
+WHERE datanascita LIKE '1982%'
