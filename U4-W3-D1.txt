@@ -3,3 +3,6 @@ WHERE nome = 'Mario'
 
 ES.2) SELECT nome, cognome FROM clienti
 WHERE datanascita LIKE '1982%'
+
+ES.4) SELECT * FROM prodotti
+WHERE prodotti.inproduzione = false AND EXTRACT(YEAR FROM dataattivazione) = 2023  
